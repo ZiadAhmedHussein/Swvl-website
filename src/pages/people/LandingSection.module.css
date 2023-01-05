@@ -34,7 +34,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--white-color);
-  z-index: 5;
+  z-index: 2;
 }
 
 @media (max-width: 767px) {

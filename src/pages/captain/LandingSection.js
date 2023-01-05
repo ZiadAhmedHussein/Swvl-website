@@ -7,7 +7,7 @@ const LandingSection = () => {
 			<div className={classes.content}>
 				<h1>Aye, Aye <br/> Captain!</h1>
 				<Button className={classes.button} type="button">
-					<a href="kjb" rel="noreferrer">Apply</a>
+					<a href="#apply" rel="noreferrer">Apply</a>
 				</Button>
 			</div>
 		</div>

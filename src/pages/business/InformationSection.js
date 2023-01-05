@@ -116,7 +116,7 @@ const InformationSection = () => {
 					<h2>Find a solution that works for you.</h2>
 					<p>Reach out to optimize transportation for your organization.</p>
 					<Button type="button" className={classes.button}>
-						<a href="kjb" rel="noreferrer">SPEAK WITH OUR TEAM</a>
+						<a href="#speak-our-team" rel="noreferrer">SPEAK WITH OUR TEAM</a>
 					</Button>
 				</div>
 			</div>

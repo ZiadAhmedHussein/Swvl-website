@@ -13,7 +13,7 @@ const LandingSection = () => {
 					Replace the inefficiencies plaguing your transportation.
 				</p>
 				<Button className={classes.button} type="button">
-					<a href="kjb" rel="noreferrer">SPEAK WITH OUR TEAM</a>
+					<a href="#speak-our-team" rel="noreferrer">SPEAK WITH OUR TEAM</a>
 				</Button>
 				<i class="fa-solid fa-angles-down"></i>
 			</div>
