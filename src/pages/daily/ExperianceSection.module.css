@@ -1,0 +1,44 @@
+.experiance-section {
+	margin-top: 80px;
+	display: flex;
+}
+
+.experiance-section .text-content {
+	width: 43%;
+	background-color: var(--red-color);
+	color: var(--white-color);
+	padding: 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+@media (min-width: 993px) and (max-width: 1180px) {
+	.experiance-section .text-content {
+		padding: 30px;
+	}
+}
+@media (max-width: 992px) {
+	.experiance-section .text-content {
+		padding: 20px;
+	}
+	
+}
+@media (max-width: 767px) {
+	.experiance-section .text-content {
+		width: 100%;
+	}
+}
+
+.experiance-section .img-content {
+	width: 57%;
+}
+@media (max-width: 767px) {
+	.experiance-section .img-content {
+		display: none;
+	}
+}
+.experiance-section .img-content img {
+	width: 100%;
+	height: 100%;
+}

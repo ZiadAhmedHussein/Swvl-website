@@ -1,0 +1,40 @@
+
+.landing {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  
+}
+.landing .video {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 992px) {
+  .landing .video {
+    top: -23%;
+  }
+}
+
+.landing video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.landing button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 992px) {
+  .landing button {
+    top: 65%;
+  }
+}
+

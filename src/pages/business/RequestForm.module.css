@@ -1,0 +1,75 @@
+.request-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+	justify-content: space-between;
+	row-gap: 45px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.request-form{
+		width: 85%;
+	}
+}
+@media (max-width: 767px) {
+	.request-form {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+
+.request-form .input {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+.request-form .input.first-name,
+.request-form .input.last-name {
+	width: 49%;
+}
+@media (max-width: 767px) {
+	.request-form .input.first-name,
+	.request-form .input.last-name {
+		width: 100%;
+	}
+}
+
+.request-form .input input,
+.request-form .input select {
+	width: 100%;
+	padding: 20px 30px;
+	font-size: 18px;
+	border-radius: 12px;
+	border: none;
+}
+
+.request-form .submit-button {
+	padding: 15px 35px;
+	font-size: 20px;
+	font-weight: 800;
+	background-color: var(--red-color);
+	color: var(--white-color);
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.request-form .submit-button:hover {
+	opacity: .9;
+}
+
+
+.invalid {
+	border: 5px solid red !important;
+	color: var(--red-color);
+}
+
+.invalidP {
+	color: var(--red-color);
+}
+.validP {
+	color: rgb(1, 167, 1);
+}

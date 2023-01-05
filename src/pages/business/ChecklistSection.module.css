@@ -1,0 +1,66 @@
+.checklist-section {
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-100px);
+}
+@media (max-width: 767px) {
+  .checklist-section {
+    transform: translateY(0);
+		margin: 50px 50px 0;
+		flex-direction: column;
+		gap: 30px;
+  }
+}
+
+.checklist-section .text-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	width: 56%;
+}
+@media (max-width: 767px) {
+  .checklist-section .text-content {
+    width: 100%;
+  }
+}
+.checklist-section .text-content h2 {
+  color: var(--blue-color);
+  font-size: 34px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .checklist-section .text-content h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .checklist-section .text-content h2 {
+    font-size: 26px;
+  }
+}
+
+.checklist-section .text-content p {
+	color: var(--black-color);
+	font-size: 20px;
+}
+.checklist-section .text-content a {
+	color: var(--blue-color);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-weight: 600;
+}
+.checklist-section .img-content {
+	display: flex;
+	align-items: center;
+	width: 41%;
+}
+@media (max-width: 767px) {
+  .checklist-section .img-content {
+    width: 100%;
+  }
+}
+.checklist-section .img-content img {
+	width: 100%;
+}

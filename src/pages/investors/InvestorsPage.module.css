@@ -1,0 +1,7 @@
+.investors-page {
+	position: relative;
+	background-color: var(--black-color);
+}
+.on-progress {
+	height: 100vh;
+}

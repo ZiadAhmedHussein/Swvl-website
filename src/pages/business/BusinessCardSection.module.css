@@ -1,0 +1,122 @@
+.business-card-section{
+	position: relative;
+	background-color: white;
+	height: 600px;
+}
+@media (max-width: 992px) {
+	.business-card-section {
+		padding-top: 80px;
+		height: fit-content;
+	}
+}
+.business-card-section .curve {
+	position: absolute;
+	top: -100px;
+	left: 0;
+	background-color: white;
+	border-top-left-radius: 100px;
+	height: 100%;
+	width: 100%;
+}
+@media (max-width: 992px) {
+	.business-card-section .curve {
+		display: none;
+	}
+}
+.business-card-section .cards-component {
+	background-color: transparent;
+	display: flex;
+	justify-content: space-between;
+	position: relative !important;
+	top: -170px;
+	left: 0;
+	z-index: 2;
+	flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+	.business-card-section .cards-component {
+		top:0
+	}
+}
+@media (max-width: 767px) {
+	.business-card-section .cards-component {
+		flex-direction: column;
+		gap: 40px;
+		align-items: center;
+	}
+}
+
+.business-card-section .cards-component .card {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 23%;
+	border-radius: 12px;
+	box-shadow: 5px 5px 10px rgb(80, 80, 80);
+	padding: 20px 30px 50px;
+	gap: 20px;
+	transition: .2s;
+}
+@media (max-width: 767px) {
+	.business-card-section .cards-component .card {
+		width: 80%;
+	}
+}
+.business-card-section .cards-component .card:hover {
+	box-shadow: 1px 1px 3px rgb(80, 80, 80);
+}
+.card .img-content {
+	width: 60%;
+}
+.card .img-content img {
+	width: 100%;
+}
+
+.card h3 {
+	color: var(--blue-color);
+	font-size: 22px;
+}
+.card p {
+	color: var(--black-color);
+	font-size: 20px;
+}
+.card a {
+	color: var(--blue-color);
+}
+.card a i {
+	margin-left: 5px;
+}
+
+.business-card-section .cards-component .card:hover a {
+	border-bottom: 1px solid var(--blue-color);
+}
+
+.main {
+  display: flex;
+  width: calc(100% - 120px);
+  transition: .3s;
+  margin-bottom: 50px;
+  position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 60px;
+	margin: 0 60px;
+}
+
+@media (min-width: 993px) and (max-width: 1180px) {
+  .main {
+    padding: 0 30px;
+		margin: 0 30px;
+		width: calc(100% - 60px);
+  }
+}
+@media (max-width: 992px) {
+  .business-card-section .main {
+    padding: 0 20px;
+		margin: 0 20px;
+		width: calc(100% - 40px);
+		position: relative;
+		margin-top: 100px;
+  }
+}

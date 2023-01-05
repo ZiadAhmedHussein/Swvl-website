@@ -1,0 +1,44 @@
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .apply-form {
+    width: 100%;
+  }
+}
+.apply-form input {
+  width: 100%;
+	padding: 15px 20px;
+	font-size: 18px;
+	border: none;
+}
+
+.apply-form .submit-button {
+	padding: 15px 35px;
+	font-size: 22px;
+	font-weight: 800;
+	background-color: var(--red-color);
+	color: var(--white-color);
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.apply-form .submit-button:hover {
+	opacity: .9;
+}
+
+.invalid {
+	border: 5px solid red !important;
+	color: var(--red-color);
+}
+
+.invalidP {
+	color: var(--red-color);
+}
+.validP {
+  color: rgb(1, 167, 1);
+}

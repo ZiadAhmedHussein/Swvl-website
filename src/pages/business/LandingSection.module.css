@@ -1,0 +1,55 @@
+.landing-section {
+  background-image: url("../../IMGES/business-landing.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.landing-section {
+		height: 700px;
+	}
+}
+@media (max-width: 767px) {
+	.landing-section {
+		height: 550px;
+	}
+}
+
+.landing-section::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.517);
+}
+
+.landing-section .text-content {
+	color: var(--white-color);
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 65%;
+	text-align: center;
+	z-index: 1;
+}
+@media (max-width: 767px) {
+	.landing-section .text-content {
+		width: 90%;
+	}
+	
+}
+
+
+.landing-section .text-content .button {
+	margin: 30px 0;
+}
+
+.landing-section .text-content i {
+	display: block;
+	font-size: 40px;
+}

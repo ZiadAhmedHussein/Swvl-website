@@ -1,0 +1,44 @@
+.about-us-section {
+  display: flex;
+  color: var(--black-color);
+  margin-top: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+  border-bottom: 1px solid var(--black-color);
+}
+@media (max-width: 767px) {
+  .about-us-section {
+    margin-top: 50px;
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+.about-us-section p,
+.about-us-section h1 {
+  width: 45%;
+}
+@media (max-width: 767px) {
+  .about-us-section p,
+  .about-us-section h1 {
+    width: 100%;
+  }
+}
+.about-us-section p {
+  line-height: 1.6;
+}
+
+.about-us-section p i {
+  display: block;
+  color: var(--red-color);
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .about-us-section p i {
+    margin-top: 30px;
+    font-size: 70px;
+  }
+}

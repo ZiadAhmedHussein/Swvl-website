@@ -1,0 +1,131 @@
+.footer {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media(max-width: 992px) {
+  .footer .content {
+    justify-content: center;
+    row-gap: 50px;
+  }
+}
+
+.footer .content .column {
+  width: 18.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer .content .column {
+    width: 30%;
+  }
+}
+@media (min-width: 572px) and (max-width: 767px) {
+  .footer .content .column {
+    width: 45%;
+  }
+}
+@media (max-width: 571px) {
+  .footer .content .column {
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+  }
+}
+.footer .content .column h3 {
+  text-transform: uppercase;
+}
+.footer .content .column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media (max-width: 571px) {
+  .footer .content .column ul {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.footer .content .column.load-app li {
+  width: 60%;
+
+}
+
+.footer .content .column.load-app li a img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.footer .content .who-we-are ul li a,
+.footer .content .what-we-do ul li a {
+  color: var(--white-color);
+  font-size: 24px;
+}
+@media (max-width: 571px) {
+  .footer .content .who-we-are ul li a,
+  .footer .content .what-we-do ul li a {
+    font-size: 18px;
+  }
+}
+
+.footer .content .signed {
+  gap: 20px !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer .content .signed ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .content .signed ul li a {
+  color: var(--white-color);
+  font-size: 17px;
+}
+
+.footer .content .social-media {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .content .social-media ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .content .social-media ul li a i {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  font-size: 35px;
+  transition: .3s;
+}
+
+
+
+
+.insta i:hover {
+  color: blueviolet !important;
+}
+.face i:hover {
+  color: blue !important;
+}
+.twitter i:hover {
+  color: blue !important;
+}
+.youtube i:hover {
+  color: red !important;
+}
+.lin i:hover {
+  color: blue !important;
+}

@@ -1,0 +1,21 @@
+.swvl-way-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.swvl-way-section .content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (max-width: 767px) {
+  .swvl-way-section .content {
+    width: 90%;
+  }
+}
+.swvl-way-section .content h1 {
+  color: var(--black-color);
+  text-align: center;
+}

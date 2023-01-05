@@ -1,0 +1,48 @@
+.apply-section{
+  background-image: url("../../IMGES/captain-img.jpeg");
+  background-size: 100% 100%;
+  height: fit-content;
+  width: 100%;
+  color: var(--white-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .apply-section {
+    justify-content: center;
+  }
+}
+.apply-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.517);
+}
+
+.apply-section .content {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  z-index: 5;
+  
+}
+@media (max-width: 767px) {
+  .apply-section .content {
+    width: 80%;
+  }
+}
+.apply-section .content h1 {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .apply-section .content h1 {
+    text-align: center;
+  }
+}

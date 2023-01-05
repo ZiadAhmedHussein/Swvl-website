@@ -1,0 +1,92 @@
+.needs-solution-section {
+  background-color: #eee;
+  padding-top: 100px;
+  transform: translateY(-200px);
+  border-top-left-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (max-width: 767px) {
+  .needs-solution-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-left-radius: 0;
+    transform: translateY(0);
+  }
+}
+
+.needs-solution-section h1 {
+  text-align: center;
+  color: var(--Black-color);
+}
+
+.needs-solution-section .content {
+  display: flex;
+  justify-content: space-between;
+}
+.needs-solution-section .content .img-content {
+  display: flex;
+  align-items: center;
+  width: 48%;
+}
+@media (max-width: 767px) {
+  .needs-solution-section .content .img-content {
+    display: none;
+  }
+}
+.needs-solution-section .content .img-content img {
+  width: 100%;
+}
+.needs-solution-section .content .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  width: 50%;
+  padding-right: 60px;
+}
+@media (min-width: 993px) and (max-width: 1180px) {
+  .needs-solution-section .content .text-content {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .needs-solution-section .content .text-content {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .needs-solution-section .content .text-content {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+.needs-solution-section .content .text-content h2 {
+  color: var(--blue-color);
+  font-size: 34px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .needs-solution-section .content .text-content h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .needs-solution-section .content .text-content h2 {
+    font-size: 26px;
+  }
+}
+.needs-solution-section .content span {
+  font-size: 26px;
+  font-weight: 600;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .needs-solution-section .content .text-content span {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .needs-solution-section .content .text-content span {
+    font-size: 22px;
+  }
+}
