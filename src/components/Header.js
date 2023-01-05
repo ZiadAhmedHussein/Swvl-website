@@ -20,8 +20,8 @@ const Header = () => {
       <nav className="containerr">
         <NavLink to="/home" exact className={classes["logo-img"]}>
           <img src={require("../IMGES/swvl-logo.png")} alt="swvl" />
-          
         </NavLink>
+        
         <div onClick={listOfLinkHandeler} className={classes["nav-charts"]}>
           <span></span>
           <span></span>
