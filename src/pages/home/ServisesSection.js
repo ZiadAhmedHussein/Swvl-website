@@ -16,7 +16,7 @@ const ServisesSection = () => {
 						with rides moving around the clock.
 					</p>
 					<div className={classes["imge"]}>
-						<img src={require("../../IMGES/servises_time.png")} alt="time_img" />
+						<img src={require("../../IMGES/home-imgs/servises_time.png")} alt="time_img" />
 					</div>
 				</div>
 				<div className={classes["column"]}>
@@ -26,7 +26,7 @@ const ServisesSection = () => {
             but we'd prefer to cry on a beach vacation.
 					</p>
 					<div className={classes["imge"]}>
-						<img src={require("../../IMGES/servises_money.png")} alt="monye_img" />
+						<img src={require("../../IMGES/home-imgs/servises_money.png")} alt="monye_img" />
 					</div>
 				</div>
 				<div className={classes["column"]}>
@@ -36,7 +36,7 @@ const ServisesSection = () => {
 						off your back pain with our comfortable everyday rides.
 					</p>
 					<div className={classes["imge"]}>
-						<img src={require("../../IMGES/servises_comfortable.png")} alt="comfortable_img" />
+						<img src={require("../../IMGES/home-imgs/servises_comfortable.png")} alt="comfortable_img" />
 					</div>
 				</div>
 			</div>

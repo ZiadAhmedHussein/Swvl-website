@@ -19,7 +19,7 @@ const Header = () => {
     <header className={classes.header}>
       <nav className="containerr">
         <NavLink to="/home" exact className={classes["logo-img"]}>
-          <img src={require("../IMGES/swvl-logo.png")} alt="swvl" />
+          <img src={require("../IMGES/header-imges/swvl-logo.png")} alt="swvl" />
         </NavLink>
         
         <div onClick={listOfLinkHandeler} className={classes["nav-charts"]}>

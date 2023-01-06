@@ -87,9 +87,6 @@
 .about-us .imge img {
   width: 85%;
   height: 100%;
-  box-shadow: 0 0 15px 0 var(--black-color);
-  border-radius: 12px;
-  
 }
 
 @media (max-width: 992px) {

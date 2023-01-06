@@ -29,47 +29,47 @@ const BusinessCardSection = () => {
   const LOGO_COMPANIES = [
     {
       id:1,
-      "logo": `${require("../../IMGES/companies-logo/alibaba-logo.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/alibaba-logo.jpg")}`,
     },
     {
       id:2,
-      "logo": `${require("../../IMGES/companies-logo/Allianz-logo.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/Allianz-logo.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/amazon_logo.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/amazon_logo.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/AXA_Logo.png")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/AXA_Logo.png")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/Beiersdorf-logo.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/Beiersdorf-logo.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/Decathlon_Logo.png")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/Decathlon_Logo.png")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/EBC.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/EBC.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/emaar.png")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/emaar.png")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/etisalat.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/etisalat.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/Henkel-Logog.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/Henkel-Logog.jpg")}`,
     },
     {
       id:3,
-      "logo": `${require("../../IMGES/companies-logo/mars.jpg")}`,
+      "logo": `${require("../../IMGES/business-imgs/companies-logo/mars.jpg")}`,
     },
   ]
 	return (
@@ -78,7 +78,7 @@ const BusinessCardSection = () => {
 			<div className={`containerr ${classes["cards-component"]}`}>
 				<div className={classes["card"]}>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/red-car-img.png")} alt="car-img" />
+						<img src={require("../../IMGES/business-imgs/Business-Page-icon-1.png")} alt="car-img" />
 					</div>
 					<h3>Businesses</h3>
 					<p>
@@ -96,7 +96,7 @@ const BusinessCardSection = () => {
 				</div>
 				<div className={classes["card"]}>
 					<div className={classes["img-content"]}>
-					  <img src={require("../../IMGES/green-car-img.png")} alt="car-img" />
+					  <img src={require("../../IMGES/business-imgs/Business-Page-Icon-2.png")} alt="car-img" />
 					</div>
 					<h3>Education</h3>
 					<p>
@@ -114,7 +114,7 @@ const BusinessCardSection = () => {
 				</div>
 				<div className={classes["card"]}>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/red-car-img.png")} alt="car-img" />
+						<img src={require("../../IMGES/business-imgs/Business-Page-Icon-3.png")} alt="car-img" />
 					</div>
 					<h3>Communities</h3>
 					<p>
@@ -132,7 +132,7 @@ const BusinessCardSection = () => {
 				</div>
 				<div className={classes["card"]}>
 					<div className={classes["img-content"]}>
-					<img src={require("../../IMGES/green-car-img.png")} alt="car-img" />
+					<img src={require("../../IMGES/business-imgs/Business-Page-Icon-4.png")} alt="car-img" />
 					</div>
 					<h3>Transit Operators</h3>
 					<p>

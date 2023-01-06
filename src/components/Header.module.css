@@ -148,6 +148,7 @@
   .private-bus:hover ul {
     display: flex !important;
     position: relative;
+    width: 50px;
   }
 }
 
@@ -156,8 +157,8 @@
   display: none !important;
   flex-direction: column !important;
   position: absolute;
-  width: 50px;
-  top: 0;
+  width: 100%;
+  top: 100%;
   left: 0;
   padding-top: 20px;
   background-color: transparent !important;

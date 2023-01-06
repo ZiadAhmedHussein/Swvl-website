@@ -14,7 +14,7 @@ const Footer = () => {
                 rel="noreferrer" 
                 target="_blank"
               >
-                <img src={require("../IMGES/get-on-google-play.png")} alt="google-play-link" />
+                <img src={require("../IMGES/footer-imgs/google-play.jpg")} alt="google-play-link" />
               </a>
             </li>
             <li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 rel="noreferrer" 
                 target="_blank"
               >
-                <img src={require("../IMGES/get-on-app-store.jpg")} alt="app-store-link" />
+                <img src={require("../IMGES/footer-imgs/apple-store.jpg")} alt="app-store-link" />
               </a>
             </li>
             <li>
@@ -32,7 +32,7 @@ const Footer = () => {
                 rel="noreferrer" 
                 target="_blank"
               >
-                <img src={require("../IMGES/get-on-app-gallery.jpg")} alt="app-gallery-link" />
+                <img src={require("../IMGES/footer-imgs/app-gallery.jpg")} alt="app-gallery-link" />
               </a>
             </li>
           </ul>
@@ -100,7 +100,7 @@ const Footer = () => {
         <div className={`${classes["column"]} ${classes["signed"]}`}>
           <div className={classes["logo-img"]}>
             <NavLink to="/home">
-              <img src={require("../IMGES/swvl-logo.png")} alt="logo-img" />
+              <img src={require("../IMGES/header-imges/swvl-logo.png")} alt="logo-img" />
             </NavLink>
           </div>
           <ul>

@@ -17,7 +17,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className={classes["imge"]}>
-        <img src={require("../../IMGES/about-us.jpg")} alt="swvl-umprella"/>
+        <img src={require("../../IMGES/home-imgs/umbrella.jpg")} alt="swvl-umprella"/>
       </div>
     </div>
   );

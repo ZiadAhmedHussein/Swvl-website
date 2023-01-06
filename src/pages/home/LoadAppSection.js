@@ -5,7 +5,7 @@ const LoadAppSection = () => {
   return (
     <div className={`containerr ${classes["load-app-section"]}`}>
       <div className={classes["imge"]}>
-        <img src={require("../../IMGES/mobil-app.png")} alt="swvl-umprella"/>
+        <img src={require("../../IMGES/home-imgs/live_tracking.jpg")} alt="swvl-umprella"/>
       </div>
       <div className={classes["details"]}>
         <h1>What moves us?</h1>

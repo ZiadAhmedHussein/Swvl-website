@@ -91,9 +91,6 @@
 
 .recommends .part .img-content {
 	width: 48%;
-	border-radius: 40px;
-	overflow: hidden;
-	box-shadow: 2px 2px 5px rgb(111, 111, 111);
 }
 @media (max-width: 767px) {
 	.recommends .part .img-content {

@@ -19,12 +19,12 @@ const RecommendationSection = () => {
 						</p>
 					</div>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/human-business.jpg")} alt="recommend-img" />
+						<img src={require("../../IMGES/business-imgs/Business Page_Safe Routes.jpg")} alt="recommend-img" />
 					</div>
 				</div>
 				<div className={classes["part"]}>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/human-daily.jpg")} alt="recommend-img" />
+						<img src={require("../../IMGES/business-imgs/Business Page_Support.jpg")} alt="recommend-img" />
 					</div>
 					<div className={classes["text-content"]}>
 						<h3>REAL PEOPLE, READY TO ASSIST 24/7</h3>
@@ -41,12 +41,12 @@ const RecommendationSection = () => {
 						</p>
 					</div>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/human-travel.jpg")} alt="recommend-img" />
+						<img src={require("../../IMGES/business-imgs/Business Page_Processing.jpg")} alt="recommend-img" />
 					</div>
 				</div>
 				<div className={classes["part"]}>
 					<div className={classes["img-content"]}>
-						<img src={require("../../IMGES/capss-img.jpeg")} alt="recommend-img" />
+						<img src={require("../../IMGES/business-imgs/Business Page_Transport.jpg")} alt="recommend-img" />
 					</div>
 					<div className={classes["text-content"]}>
 						<h3>RELIABLE AND COMPLETELY VISIBLE TRANSPORT</h3>

@@ -1,8 +1,7 @@
 .load-app-section {
-  margin-top: 80px;
-  margin-bottom: 80px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .load-app-section {
@@ -12,19 +11,19 @@
 }
 
 .load-app-section .imge {
-  width: 28%;
+  width: 37%;
 }
 @media (max-width: 767px) {
   .load-app-section .imge {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
   }
 }
 .load-app-section .imge img {
-  width: 80%;
-  border-radius: 18px;
+  width: 100%;
 }
+
 .load-app-section .details {
   width: 50%;
   color: var(--black-color);
@@ -35,6 +34,7 @@
 @media (max-width: 767px) {
   .load-app-section .details {
     width: 100%;
+    padding-bottom: 50px;
   }
 }
 
@@ -53,12 +53,18 @@
 .load-app-section .details h1 {
   position: relative;
   width: 100%;
+  margin-bottom: 80px;
+}
+@media (max-width: 992px) {
+  .load-app-section .details h1 {
+    margin-bottom: 0;
+  }
 }
 
 .load-app-section .details h1::after {
   content: "";
   position: absolute;
-  bottom: -50px;
+  bottom: -90px;
   left: 0;
   width: 20%;
   height: 20px;

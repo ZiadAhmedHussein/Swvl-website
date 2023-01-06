@@ -7,7 +7,7 @@ const NeedsSolutionSection = () => {
 			<h1>Flexible solutions for changing needs</h1>
 			<div className={classes["content"]}>
 				<div className={classes["img-content"]}>
-					<img src={require("../../IMGES/human-daily.jpg")} alt="img" />
+					<img src={require("../../IMGES/business-imgs/Business Page_needs-part.jpg")} alt="img" />
 				</div>
 				<div className={classes["text-content"]}>
 					<h2>

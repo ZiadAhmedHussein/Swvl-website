@@ -32,6 +32,7 @@
 	left: 0;
 	z-index: 2;
 	flex-wrap: wrap;
+  row-gap: 60px;
 }
 @media (max-width: 992px) {
 	.business-card-section .cards-component {
@@ -58,6 +59,12 @@
 	gap: 20px;
 	transition: .2s;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+	.business-card-section .cards-component .card {
+    width: 45%;
+  }
+	
+}
 @media (max-width: 767px) {
 	.business-card-section .cards-component .card {
 		width: 80%;
@@ -67,7 +74,8 @@
 	box-shadow: 1px 1px 3px rgb(80, 80, 80);
 }
 .card .img-content {
-	width: 60%;
+	width: 40%;
+	margin-bottom: 20px;
 }
 .card .img-content img {
 	width: 100%;

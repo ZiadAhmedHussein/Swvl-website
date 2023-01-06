@@ -22,22 +22,25 @@
   .swvl-way-slider .counter-content {
     width: 100%;
     text-align: center;
+    align-items: center;
   }
 }
 
 
-.swvl-way-slider .counter-content i {
-  color: var(--red-color);
-  font-size: 120px;
+.swvl-way-slider .counter-content .arrow-img {
+  width: 50%;
+}
+.swvl-way-slider .counter-content .arrow-img img {
+  width: 100%;
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  .swvl-way-slider .counter-content i {
-    font-size: 90px;
+  .swvl-way-slider .counter-content .arrow-img {
+    width: 70%;
   }
 }
 @media (max-width: 767px) {
-  .swvl-way-slider .counter-content i {
-    font-size: 70px;
+  .swvl-way-slider .counter-content .arrow-img {
+    width: 40%;
   }
 }
 .swvl-way-slider .counter-content p {

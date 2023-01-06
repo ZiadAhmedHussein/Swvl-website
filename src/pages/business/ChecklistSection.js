@@ -19,7 +19,7 @@ const ChecklistSection = () => {
 				</a>
 			</div>
 			<div className={classes["img-content"]}>
-				<img src={require("../../IMGES/human-travel.jpg")} alt="img" />
+				<img src={require("../../IMGES/business-imgs/Business Page_Checklist.jpg")} alt="img" />
 			</div>
 		</div>
 	);

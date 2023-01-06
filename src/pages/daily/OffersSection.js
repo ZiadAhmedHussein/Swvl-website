@@ -14,7 +14,7 @@ const OffersSection = () => {
 				</ul>
       </div>
       <div className={classes["img-content"]}>
-        <img src={require("../../IMGES/servises_money.png")} alt="swvl-umprella"/>
+        <img src={require("../../IMGES/home-imgs/servises_money.png")} alt="swvl-umprella"/>
       </div>
 		</div>
 	);
